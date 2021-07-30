@@ -58,4 +58,5 @@ int main(int argc, char *argv[])
 
     timer.stop();
     LOG(INFO) << "total time: " << timer.get_time();
+    LOG(INFO) << "This is for debug";
 }
