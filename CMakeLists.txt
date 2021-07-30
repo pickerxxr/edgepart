@@ -1,4 +1,7 @@
-cmake_minimum_required (VERSION 2.8)
+set(CMAKE_BUILD_TYPE "Debug")
+set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g2 -ggdb")
+set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
+cmake_minimum_required (VERSION 3.0)
 project (edgepart)
 
 set(CMAKE_VERBOSE_MAKEFILE off)
@@ -8,13 +11,13 @@ set(CMAKE_VERBOSE_MAKEFILE off)
 # find_package (Boost REQUIRED)
 
 # SET a default build type if none was specified
-if(NOT CMAKE_BUILD_TYPE)
-  message(STATUS "Setting build type to 'Release' as none was specified.")
-  set(CMAKE_BUILD_TYPE Release CACHE STRING "Choose the type of build." FORCE)
-  # SET the possible values of build type for cmake-gui
-endif()
+# if(NOT CMAKE_BUILD_TYPE)
+#   message(STATUS "Setting build type to 'Release' as none was specified.")
+#   set(CMAKE_BUILD_TYPE Release CACHE STRING "Choose the type of build." FORCE)
+#   # SET the possible values of build type for cmake-gui
+# endif()
 
-set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Release" "Debug")
+# set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Release" "Debug")
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -g -std=c++11 -pthread -fopenmp")
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_EXE_LINK_FLAGS_RELEASE} -Ofast -DNDEBUG")

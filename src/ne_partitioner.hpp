@@ -17,7 +17,7 @@
 #include "partitioner.hpp"
 #include "graph.hpp"
 
-/* Neighbor Expansion (NE) */
+/* Neighbor Expansion With Stop (NEWS) */
 class NePartitioner : public Partitioner
 {
   private:

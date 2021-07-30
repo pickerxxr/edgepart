@@ -47,6 +47,7 @@ class Converter
 
     virtual void add_edge(vid_t from, vid_t to)
     {
+        // get rid of self edges
         if (to == from) {
             LOG(WARNING) << "Tried to add self-edge " << from << "->" << to
                          << std::endl;

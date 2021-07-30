@@ -68,7 +68,7 @@ void convert_adjlist(std::string inputfile, Converter *converter)
     }
     LOG(INFO) << "Reading in adjacency list format!" << std::endl;
 
-    int maxlen = 1000000000;
+    const int maxlen = 1000000000;
     char *s = (char *)malloc(maxlen);
 
     size_t bytesread = 0;
