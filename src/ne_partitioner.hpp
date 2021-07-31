@@ -30,6 +30,7 @@ class NePartitioner : public Partitioner
     int p, bucket;
     double average_degree;
     size_t capacity;
+    // TODO: Capacity maybe the bound?
 
     std::vector<edge_t> edges;
     graph_t adj_out, adj_in;
@@ -51,6 +52,9 @@ class NePartitioner : public Partitioner
             auto &is_boundary = is_boundarys[i];
             if (is_boundary.get(e->first) && is_boundary.get(e->second) &&
                 occupied[i] < capacity) {
+                // TODO: capacity means upper bound and occupied[i] means the i_th partitioned edges number now
+                // SO here we need to ban the capacity number
+                LOG(INFO) << "check_edge function called..." << i;
                 return i;
             }
         }
@@ -65,10 +69,11 @@ class NePartitioner : public Partitioner
                     continue;
                 is_boundary.set_bit(e->first);
                 is_boundary.set_bit(e->second);
+                LOG(INFO) << "check_edge function called..." << i;
                 return i;
             }
         }
-
+        LOG(INFO) << "The # of replication buckets: " << p;
         return p;
     }
 
@@ -99,23 +104,59 @@ class NePartitioner : public Partitioner
                 if (edges[neighbors[i].v].valid()) {
                     vid_t &u = direction ? edges[neighbors[i].v].second : edges[neighbors[i].v].first;
                     if (is_core.get(u)) {
+                        // When core has adjacent vertex, i.e. when 
+                        // there is no need to change this condition
                         assign_edge(bucket, direction ? vid : u,
                                     direction ? u : vid);
                         min_heap.decrease_key(vid);
                         edges[neighbors[i].v].remove();
                         std::swap(neighbors[i], neighbors.back());
                         neighbors.pop_back();
-                    } else if (is_boundary.get(u) &&
+                    } else if (is_boundary.get(u) && 
                                occupied[bucket] < capacity) {
-                        assign_edge(bucket, direction ? vid : u,
-                                    direction ? u : vid);
-                        min_heap.decrease_key(vid);
-                        min_heap.decrease_key(u);
-                        edges[neighbors[i].v].remove();
-                        std::swap(neighbors[i], neighbors.back());
-                        neighbors.pop_back();
-                    } else
-                        i++;
+                        /* 
+                        When secondary has adjacent vertex：
+                         TODO we need to add stop condition here
+                         the stop condition:
+                         TODO： So now we need to find following data structure and objects：
+                         (# edges -- in all adjacent vertices of secondary / # vertices -- in adj of vertices in secondary)  / # vertices -- in secondary
+                            1. adjacent list of vertcies in secondary set;
+                            2. how count the # of all connected edges of vertices in secondary
+                            3. size of secondary set
+                            4. and how to generate a new round 
+                                (1) random select
+                                (2) random select under a upper bound (adjacent size)
+                        */
+                        int num_ouside = 0;
+                        for (auto iter = is_boundary.begin(); iter != is_boundary.end(); iter++){
+                            // LOG(INFO) << *iter << " ";
+                            int adj_num_outside = 0;
+                            // total_size = 
+                            num_ouside += 1;
+                            // need to finish tomorrow: 
+                            // step 1. 找到如何来访问来访问邻接表·············· 
+                        }
+
+                        // the is_boundary is a pointer of pointer
+                        LOG(INFO) << "!!!!!!!is_boundary";
+
+                        double theta = 1.0;
+                        // we add the stop condition
+                            // if ((double)(theta) / is_boundary.size() > 100.0){
+                                assign_edge(bucket, direction ? vid : u,
+                                            direction ? u : vid);
+                                min_heap.decrease_key(vid);
+                                min_heap.decrease_key(u);
+                                LOG(INFO) << typeid(edges[neighbors[i].v]).name();
+                                edges[neighbors[i].v].remove();
+                                std::swap(neighbors[i], neighbors.back());
+                                neighbors.pop_back();
+                            // }
+                            // else{
+                            //     continue;
+                            // }
+                        } else
+                            i++;
                 } else {
                     std::swap(neighbors[i], neighbors.back());
                     neighbors.pop_back();
