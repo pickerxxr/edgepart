@@ -147,6 +147,7 @@ void NePartitioner::split()
         std::cerr << bucket << ", ";
         DLOG(INFO) << "sample size: " << adj_out.num_edges();
         while (occupied[bucket] < capacity) {
+            // the < capacity should not exist
             vid_t d, vid;
             if (!min_heap.get_min(d, vid)) {
                 if (!get_free_vertex(vid)) {
