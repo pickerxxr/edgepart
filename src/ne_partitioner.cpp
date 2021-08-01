@@ -57,7 +57,7 @@ NePartitioner::NePartitioner(std::string basefilename)
     read_timer.stop();
     LOG(INFO) << "time used for graph input and construction: " << read_timer.get_time();
     // LOG(INFO) << "what edges data structure like: " << &edges.begin();)
-    LOG(INFO) << "about degrees: " << *degrees.end();
+    LOG(INFO) << "structure of adj_in: " << adj_in.num_edges();
 };
 
 void NePartitioner::assign_remaining()

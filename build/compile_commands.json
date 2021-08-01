@@ -1,82 +1,82 @@
 [
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/graph2edgelist.dir/src/graph2edgelist.cpp.o -c /root/Desktop/edgepar/edgepart/src/graph2edgelist.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/graph2edgelist.dir/src/graph2edgelist.cpp.o -c /root/Desktop/edgepar/edgepart/src/graph2edgelist.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/graph2edgelist.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/graph2edgelist.dir/src/util.cpp.o -c /root/Desktop/edgepar/edgepart/src/util.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/graph2edgelist.dir/src/util.cpp.o -c /root/Desktop/edgepar/edgepart/src/util.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/util.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/graph2edgelist.dir/src/conversions.cpp.o -c /root/Desktop/edgepar/edgepart/src/conversions.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/graph2edgelist.dir/src/conversions.cpp.o -c /root/Desktop/edgepar/edgepart/src/conversions.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/conversions.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/main.cpp.o -c /root/Desktop/edgepar/edgepart/src/main.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/main.cpp.o -c /root/Desktop/edgepar/edgepart/src/main.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/main.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/util.cpp.o -c /root/Desktop/edgepar/edgepart/src/util.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/util.cpp.o -c /root/Desktop/edgepar/edgepart/src/util.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/util.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/sort.cpp.o -c /root/Desktop/edgepar/edgepart/src/sort.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/sort.cpp.o -c /root/Desktop/edgepar/edgepart/src/sort.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/sort.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/graph.cpp.o -c /root/Desktop/edgepar/edgepart/src/graph.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/graph.cpp.o -c /root/Desktop/edgepar/edgepart/src/graph.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/graph.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/ne_partitioner.cpp.o -c /root/Desktop/edgepar/edgepart/src/ne_partitioner.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/ne_partitioner.cpp.o -c /root/Desktop/edgepar/edgepart/src/ne_partitioner.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/ne_partitioner.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/sne_partitioner.cpp.o -c /root/Desktop/edgepar/edgepart/src/sne_partitioner.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/sne_partitioner.cpp.o -c /root/Desktop/edgepar/edgepart/src/sne_partitioner.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/sne_partitioner.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/random_partitioner.cpp.o -c /root/Desktop/edgepar/edgepart/src/random_partitioner.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/random_partitioner.cpp.o -c /root/Desktop/edgepar/edgepart/src/random_partitioner.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/random_partitioner.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/hsfc_partitioner.cpp.o -c /root/Desktop/edgepar/edgepart/src/hsfc_partitioner.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/hsfc_partitioner.cpp.o -c /root/Desktop/edgepar/edgepart/src/hsfc_partitioner.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/hsfc_partitioner.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/dbh_partitioner.cpp.o -c /root/Desktop/edgepar/edgepart/src/dbh_partitioner.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/dbh_partitioner.cpp.o -c /root/Desktop/edgepar/edgepart/src/dbh_partitioner.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/dbh_partitioner.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/conversions.cpp.o -c /root/Desktop/edgepar/edgepart/src/conversions.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/conversions.cpp.o -c /root/Desktop/edgepar/edgepart/src/conversions.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/conversions.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/shuffler.cpp.o -c /root/Desktop/edgepar/edgepart/src/shuffler.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -I/root/Desktop/edgepar/edgepart/./threadpool11/include  -O0 -Wall -g2 -ggdb -o CMakeFiles/main.dir/src/shuffler.cpp.o -c /root/Desktop/edgepar/edgepart/src/shuffler.cpp",
   "file": "/root/Desktop/edgepar/edgepart/src/shuffler.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -Dthreadpool11_EXPORTING -I/root/Desktop/edgepar/edgepart/threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o threadpool11/CMakeFiles/threadpool11.dir/src/pool.cpp.o -c /root/Desktop/edgepar/edgepart/threadpool11/src/pool.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -Dthreadpool11_EXPORTING -I/root/Desktop/edgepar/edgepart/threadpool11/include  -O0 -Wall -g2 -ggdb -o threadpool11/CMakeFiles/threadpool11.dir/src/pool.cpp.o -c /root/Desktop/edgepar/edgepart/threadpool11/src/pool.cpp",
   "file": "/root/Desktop/edgepar/edgepart/threadpool11/src/pool.cpp"
 },
 {
   "directory": "/root/Desktop/edgepar/edgepart/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -Dthreadpool11_EXPORTING -I/root/Desktop/edgepar/edgepart/threadpool11/include  -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb -o threadpool11/CMakeFiles/threadpool11.dir/src/worker.cpp.o -c /root/Desktop/edgepar/edgepart/threadpool11/src/worker.cpp",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-6 -Dthreadpool11_EXPORTING -I/root/Desktop/edgepar/edgepart/threadpool11/include  -O0 -Wall -g2 -ggdb -o threadpool11/CMakeFiles/threadpool11.dir/src/worker.cpp.o -c /root/Desktop/edgepar/edgepart/threadpool11/src/worker.cpp",
   "file": "/root/Desktop/edgepar/edgepart/threadpool11/src/worker.cpp"
 }
 ]

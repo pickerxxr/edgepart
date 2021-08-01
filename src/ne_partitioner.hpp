@@ -1,5 +1,7 @@
 #pragma once
 
+#include <typeinfo>
+
 #include <string>
 #include <vector>
 #include <iostream>
@@ -54,7 +56,7 @@ class NePartitioner : public Partitioner
                 occupied[i] < capacity) {
                 // TODO: capacity means upper bound and occupied[i] means the i_th partitioned edges number now
                 // SO here we need to ban the capacity number
-                LOG(INFO) << "check_edge function called..." << i;
+                // LOG(INFO) << "check_edge function called..." << i;
                 return i;
             }
         }
@@ -69,11 +71,11 @@ class NePartitioner : public Partitioner
                     continue;
                 is_boundary.set_bit(e->first);
                 is_boundary.set_bit(e->second);
-                LOG(INFO) << "check_edge function called..." << i;
+                // LOG(INFO) << "check_edge function called..." << i;
                 return i;
             }
         }
-        LOG(INFO) << "The # of replication buckets: " << p;
+        // LOG(INFO) << "The # of replication buckets: " << p;
         return p;
     }
 
@@ -134,12 +136,13 @@ class NePartitioner : public Partitioner
                             // total_size = 
                             num_ouside += 1;
                             // need to finish tomorrow: 
-                            // step 1. 找到如何来访问来访问邻接表·············· 
+                            // step 1. 找到如何来访问来访问邻接表:
+
                         }
 
                         // the is_boundary is a pointer of pointer
-                        LOG(INFO) << "!!!!!!!is_boundary";
-
+                        // LOG(INFO) << "!!!!!!!is_boundary";
+                        // LOG(INFO) << *typeid(neighbors[*is_boundary.begin()]).name();
                         double theta = 1.0;
                         // we add the stop condition
                             // if ((double)(theta) / is_boundary.size() > 100.0){
@@ -147,7 +150,7 @@ class NePartitioner : public Partitioner
                                             direction ? u : vid);
                                 min_heap.decrease_key(vid);
                                 min_heap.decrease_key(u);
-                                LOG(INFO) << typeid(edges[neighbors[i].v]).name();
+
                                 edges[neighbors[i].v].remove();
                                 std::swap(neighbors[i], neighbors.back());
                                 neighbors.pop_back();

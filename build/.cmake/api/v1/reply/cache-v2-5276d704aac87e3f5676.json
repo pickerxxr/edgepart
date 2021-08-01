@@ -40,10 +40,6 @@
 				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
-				},
-				{
-					"name" : "STRINGS",
-					"value" : "Release;Debug"
 				}
 			],
 			"type" : "STRING",

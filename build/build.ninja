@@ -75,21 +75,21 @@ build cmake_object_order_depends_target_graph2edgelist: phony || cmake_object_or
 
 build CMakeFiles/graph2edgelist.dir/src/graph2edgelist.cpp.o: CXX_COMPILER__graph2edgelist_Debug /root/Desktop/edgepar/edgepart/src/graph2edgelist.cpp || cmake_object_order_depends_target_graph2edgelist
   DEP_FILE = CMakeFiles/graph2edgelist.dir/src/graph2edgelist.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/graph2edgelist.dir
   OBJECT_FILE_DIR = CMakeFiles/graph2edgelist.dir/src
 
 build CMakeFiles/graph2edgelist.dir/src/util.cpp.o: CXX_COMPILER__graph2edgelist_Debug /root/Desktop/edgepar/edgepart/src/util.cpp || cmake_object_order_depends_target_graph2edgelist
   DEP_FILE = CMakeFiles/graph2edgelist.dir/src/util.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/graph2edgelist.dir
   OBJECT_FILE_DIR = CMakeFiles/graph2edgelist.dir/src
 
 build CMakeFiles/graph2edgelist.dir/src/conversions.cpp.o: CXX_COMPILER__graph2edgelist_Debug /root/Desktop/edgepar/edgepart/src/conversions.cpp || cmake_object_order_depends_target_graph2edgelist
   DEP_FILE = CMakeFiles/graph2edgelist.dir/src/conversions.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/graph2edgelist.dir
   OBJECT_FILE_DIR = CMakeFiles/graph2edgelist.dir/src
@@ -103,7 +103,7 @@ build CMakeFiles/graph2edgelist.dir/src/conversions.cpp.o: CXX_COMPILER__graph2e
 # Link the executable graph2edgelist
 
 build graph2edgelist: CXX_EXECUTABLE_LINKER__graph2edgelist_Debug CMakeFiles/graph2edgelist.dir/src/graph2edgelist.cpp.o CMakeFiles/graph2edgelist.dir/src/util.cpp.o CMakeFiles/graph2edgelist.dir/src/conversions.cpp.o | threadpool11/libthreadpool11.a || threadpool11/libthreadpool11.a
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -lglog  -lgflags  threadpool11/libthreadpool11.a  -lpthread
   OBJECT_DIR = CMakeFiles/graph2edgelist.dir
@@ -135,77 +135,77 @@ build cmake_object_order_depends_target_main: phony || cmake_object_order_depend
 
 build CMakeFiles/main.dir/src/main.cpp.o: CXX_COMPILER__main_Debug /root/Desktop/edgepar/edgepart/src/main.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/main.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
 build CMakeFiles/main.dir/src/util.cpp.o: CXX_COMPILER__main_Debug /root/Desktop/edgepar/edgepart/src/util.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/util.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
 build CMakeFiles/main.dir/src/sort.cpp.o: CXX_COMPILER__main_Debug /root/Desktop/edgepar/edgepart/src/sort.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/sort.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
 build CMakeFiles/main.dir/src/graph.cpp.o: CXX_COMPILER__main_Debug /root/Desktop/edgepar/edgepart/src/graph.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/graph.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
 build CMakeFiles/main.dir/src/ne_partitioner.cpp.o: CXX_COMPILER__main_Debug /root/Desktop/edgepar/edgepart/src/ne_partitioner.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/ne_partitioner.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
 build CMakeFiles/main.dir/src/sne_partitioner.cpp.o: CXX_COMPILER__main_Debug /root/Desktop/edgepar/edgepart/src/sne_partitioner.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/sne_partitioner.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
 build CMakeFiles/main.dir/src/random_partitioner.cpp.o: CXX_COMPILER__main_Debug /root/Desktop/edgepar/edgepart/src/random_partitioner.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/random_partitioner.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
 build CMakeFiles/main.dir/src/hsfc_partitioner.cpp.o: CXX_COMPILER__main_Debug /root/Desktop/edgepar/edgepart/src/hsfc_partitioner.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/hsfc_partitioner.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
 build CMakeFiles/main.dir/src/dbh_partitioner.cpp.o: CXX_COMPILER__main_Debug /root/Desktop/edgepar/edgepart/src/dbh_partitioner.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/dbh_partitioner.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
 build CMakeFiles/main.dir/src/conversions.cpp.o: CXX_COMPILER__main_Debug /root/Desktop/edgepar/edgepart/src/conversions.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/conversions.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
 build CMakeFiles/main.dir/src/shuffler.cpp.o: CXX_COMPILER__main_Debug /root/Desktop/edgepar/edgepart/src/shuffler.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/shuffler.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/./threadpool11/include
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
@@ -219,7 +219,7 @@ build CMakeFiles/main.dir/src/shuffler.cpp.o: CXX_COMPILER__main_Debug /root/Des
 # Link the executable main
 
 build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/util.cpp.o CMakeFiles/main.dir/src/sort.cpp.o CMakeFiles/main.dir/src/graph.cpp.o CMakeFiles/main.dir/src/ne_partitioner.cpp.o CMakeFiles/main.dir/src/sne_partitioner.cpp.o CMakeFiles/main.dir/src/random_partitioner.cpp.o CMakeFiles/main.dir/src/hsfc_partitioner.cpp.o CMakeFiles/main.dir/src/dbh_partitioner.cpp.o CMakeFiles/main.dir/src/conversions.cpp.o CMakeFiles/main.dir/src/shuffler.cpp.o | threadpool11/libthreadpool11.a || threadpool11/libthreadpool11.a
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   LINK_FLAGS = -rdynamic
   LINK_LIBRARIES = -lglog  -lgflags  threadpool11/libthreadpool11.a  -lpthread
   OBJECT_DIR = CMakeFiles/main.dir
@@ -297,7 +297,7 @@ build cmake_object_order_depends_target_threadpool11: phony || threadpool11/CMak
 build threadpool11/CMakeFiles/threadpool11.dir/src/pool.cpp.o: CXX_COMPILER__threadpool11_Debug /root/Desktop/edgepar/edgepart/threadpool11/src/pool.cpp || cmake_object_order_depends_target_threadpool11
   DEFINES = -Dthreadpool11_EXPORTING
   DEP_FILE = threadpool11/CMakeFiles/threadpool11.dir/src/pool.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/threadpool11/include
   OBJECT_DIR = threadpool11/CMakeFiles/threadpool11.dir
   OBJECT_FILE_DIR = threadpool11/CMakeFiles/threadpool11.dir/src
@@ -305,7 +305,7 @@ build threadpool11/CMakeFiles/threadpool11.dir/src/pool.cpp.o: CXX_COMPILER__thr
 build threadpool11/CMakeFiles/threadpool11.dir/src/worker.cpp.o: CXX_COMPILER__threadpool11_Debug /root/Desktop/edgepar/edgepart/threadpool11/src/worker.cpp || cmake_object_order_depends_target_threadpool11
   DEFINES = -Dthreadpool11_EXPORTING
   DEP_FILE = threadpool11/CMakeFiles/threadpool11.dir/src/worker.cpp.o.d
-  FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  FLAGS = -O0 -Wall -g2 -ggdb
   INCLUDES = -I/root/Desktop/edgepar/edgepart/threadpool11/include
   OBJECT_DIR = threadpool11/CMakeFiles/threadpool11.dir
   OBJECT_FILE_DIR = threadpool11/CMakeFiles/threadpool11.dir/src
@@ -319,7 +319,7 @@ build threadpool11/CMakeFiles/threadpool11.dir/src/worker.cpp.o: CXX_COMPILER__t
 # Link the static library threadpool11/libthreadpool11.a
 
 build threadpool11/libthreadpool11.a: CXX_STATIC_LIBRARY_LINKER__threadpool11_Debug threadpool11/CMakeFiles/threadpool11.dir/src/pool.cpp.o threadpool11/CMakeFiles/threadpool11.dir/src/worker.cpp.o
-  LANGUAGE_COMPILE_FLAGS = -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb
+  LANGUAGE_COMPILE_FLAGS = -O0 -Wall -g2 -ggdb
   OBJECT_DIR = threadpool11/CMakeFiles/threadpool11.dir
   POST_BUILD = :
   PRE_LINK = :

@@ -57,7 +57,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -Wall -g -std=c++11 -pthread -fopenmp  -O0 -Wall -g2 -ggdb"
+					"fragment" : " -O0 -Wall -g2 -ggdb"
 				}
 			],
 			"defines" : 
