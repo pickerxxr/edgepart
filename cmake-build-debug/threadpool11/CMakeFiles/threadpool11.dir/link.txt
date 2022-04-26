@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libthreadpool11.a CMakeFiles/threadpool11.dir/src/pool.cpp.o CMakeFiles/threadpool11.dir/src/worker.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libthreadpool11.a

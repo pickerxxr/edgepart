@@ -56,8 +56,6 @@ NePartitioner::NePartitioner(std::string basefilename)
     degree_file.close();
     read_timer.stop();
     LOG(INFO) << "time used for graph input and construction: " << read_timer.get_time();
-    // LOG(INFO) << "what edges data structure like: " << &edges.begin();)
-    LOG(INFO) << "structure of adj_in: " << adj_in.num_edges();
 };
 
 void NePartitioner::assign_remaining()
@@ -94,9 +92,6 @@ void NePartitioner::assign_master()
         pos[b] = is_boundarys[b].begin();
     vid_t count = 0;
     while (count < num_vertices) {
-        /* 
-        TODO: The bound may be here 
-        */
         long long r = distribution(gen) * sum;
         int k;
         for (k = 0; k < p; k++) {
@@ -123,9 +118,6 @@ void NePartitioner::assign_master()
 
 size_t NePartitioner::count_mirrors()
 {
-    /*
-     TODO: Make some change to calculate the total mirrors here 
-    */
     size_t result = 0;
     rep (i, p)
         result += is_boundarys[i].popcount();
@@ -134,7 +126,7 @@ size_t NePartitioner::count_mirrors()
 
 void NePartitioner::split()
 {
-    LOG(INFO) << "partition " << basefilename << "'";
+    LOG(INFO) << "partition `" << basefilename << "'";
     LOG(INFO) << "number of partitions: " << p;
 
     Timer compute_timer;
@@ -147,7 +139,6 @@ void NePartitioner::split()
         std::cerr << bucket << ", ";
         DLOG(INFO) << "sample size: " << adj_out.num_edges();
         while (occupied[bucket] < capacity) {
-            // the < capacity should not exist
             vid_t d, vid;
             if (!min_heap.get_min(d, vid)) {
                 if (!get_free_vertex(vid)) {
@@ -184,7 +175,6 @@ void NePartitioner::split()
     compute_timer.stop();
     LOG(INFO) << "expected edges in each partition: " << num_edges / p;
     rep (i, p)
-        // TODO: occupied[i] should mean i_th parttition edges number
         DLOG(INFO) << "edges in partition " << i << ": " << occupied[i];
     size_t max_occupied = *std::max_element(occupied.begin(), occupied.end());
     LOG(INFO) << "balance: " << (double)max_occupied / ((double)num_edges / p);

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="edgepart"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\threadpool11\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graph2edgelist">
+				<Option output="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/graph2edgelist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/alanliu/Documents/GitHub/edgepart/./threadpool11/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 graph2edgelist"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graph2edgelist/fast">
+				<Option output="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/graph2edgelist" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/alanliu/Documents/GitHub/edgepart/./threadpool11/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 graph2edgelist/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/alanliu/Documents/GitHub/edgepart/./threadpool11/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/alanliu/Documents/GitHub/edgepart/./threadpool11/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threadpool11">
+				<Option output="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/threadpool11/libthreadpool11.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/threadpool11"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-Dthreadpool11_EXPORTING"/>
+					<Add directory="/Users/alanliu/Documents/GitHub/edgepart/threadpool11/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/threadpool11/Makefile&quot;  VERBOSE=1 threadpool11"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/threadpool11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/threadpool11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/threadpool11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threadpool11/fast">
+				<Option output="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/threadpool11/libthreadpool11.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/threadpool11"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-Dthreadpool11_EXPORTING"/>
+					<Add directory="/Users/alanliu/Documents/GitHub/edgepart/threadpool11/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/threadpool11/Makefile&quot;  VERBOSE=1 threadpool11/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/threadpool11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/threadpool11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/threadpool11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/conversions.cpp">
+			<Option target="graph2edgelist"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/conversions.hpp">
+			<Option target="graph2edgelist"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/dbh_partitioner.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/dbh_partitioner.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/graph.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/graph.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/graph2edgelist.cpp">
+			<Option target="graph2edgelist"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/hsfc_partitioner.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/hsfc_partitioner.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/ne_partitioner.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/ne_partitioner.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/random_partitioner.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/random_partitioner.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/shuffler.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/shuffler.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/sne_partitioner.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/sne_partitioner.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/sort.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/sort.hpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/util.cpp">
+			<Option target="graph2edgelist"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/src/util.hpp">
+			<Option target="graph2edgelist"/>
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/threadpool11/include/threadpool11/pool.hpp">
+			<Option target="threadpool11"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/threadpool11/include/threadpool11/utility.hpp">
+			<Option target="threadpool11"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/threadpool11/include/threadpool11/worker.hpp">
+			<Option target="threadpool11"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/threadpool11/src/pool.cpp">
+			<Option target="threadpool11"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/threadpool11/src/worker.cpp">
+			<Option target="threadpool11"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/threadpool11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\threadpool11\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
