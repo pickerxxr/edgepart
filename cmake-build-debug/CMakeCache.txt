@@ -230,6 +230,12 @@ edgepart_BINARY_DIR:STATIC=/Users/alanliu/Documents/GitHub/edgepart/cmake-build-
 //Value Computed by CMake
 edgepart_SOURCE_DIR:STATIC=/Users/alanliu/Documents/GitHub/edgepart
 
+//The directory containing a CMake configuration file for gflags.
+gflags_DIR:PATH=/usr/local/lib/cmake/gflags
+
+//The directory containing a CMake configuration file for glog.
+glog_DIR:PATH=/usr/local/lib/cmake/glog
+
 
 ########################
 # INTERNAL cache entries

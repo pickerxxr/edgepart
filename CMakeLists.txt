@@ -3,8 +3,8 @@ project (edgepart)
 
 set(CMAKE_VERBOSE_MAKEFILE off)
 
-# find_package (glog REQUIRED)
-# find_package (gflags REQUIRED)
+ find_package (glog REQUIRED)
+ find_package (gflags REQUIRED)
 # find_package (Boost REQUIRED)
 
 # SET a default build type if none was specified
@@ -16,7 +16,7 @@ endif()
 
 set_property(CACHE CMAKE_BUILD_TYPE PROPERTY STRINGS "Release" "Debug")
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -g -std=c++11 -pthread -fopenmp")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -g -std=c++11 -pthread")
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_EXE_LINK_FLAGS_RELEASE} -Ofast -DNDEBUG")
 
 add_subdirectory(threadpool11)

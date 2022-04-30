@@ -22,9 +22,15 @@ set(CMAKE_DEPENDS_CHECK_CXX
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "GFLAGS_IS_A_DLL=0"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   ".././threadpool11/include"
+  "/usr/local/include"
   )
 
 # The set of dependency files which are needed:

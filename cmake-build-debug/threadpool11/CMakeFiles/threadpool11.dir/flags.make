@@ -6,5 +6,5 @@ CXX_DEFINES = -Dthreadpool11_EXPORTING
 
 CXX_INCLUDES = -I/Users/alanliu/Documents/GitHub/edgepart/threadpool11/include
 
-CXX_FLAGS =  -Wall -g -std=c++11 -pthread -fopenmp -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+CXX_FLAGS =  -Wall -g -std=c++11 -pthread -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
 

@@ -5,7 +5,7 @@
 		<Option title="edgepart"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\threadpool11\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\glog\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\gflags\;CMake Files\threadpool11\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug"/>
@@ -74,9 +74,10 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
 					<Add directory="/Users/alanliu/Documents/GitHub/edgepart/./threadpool11/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
@@ -96,9 +97,10 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
 					<Add directory="/Users/alanliu/Documents/GitHub/edgepart/./threadpool11/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
@@ -128,9 +130,10 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
 					<Add directory="/Users/alanliu/Documents/GitHub/edgepart/./threadpool11/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
@@ -150,9 +153,10 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add option="-DGFLAGS_IS_A_DLL=0"/>
 					<Add directory="/Users/alanliu/Documents/GitHub/edgepart/./threadpool11/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
@@ -299,6 +303,33 @@
 		</Unit>
 		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/../../../../../usr/local/lib/cmake/glog/glog-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\glog\"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/../../../../../usr/local/lib/cmake/glog/glog-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\glog\"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/../../../../../usr/local/lib/cmake/glog/glog-modules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\glog\"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/../../../../../usr/local/lib/cmake/glog/glog-targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\glog\"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/../../../../../usr/local/lib/cmake/glog/glog-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\glog\"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/../../../../../usr/local/lib/cmake/gflags/gflags-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/../../../../../usr/local/lib/cmake/gflags/gflags-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/../../../../../usr/local/lib/cmake/gflags/gflags-nonamespace-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/../../../../../usr/local/lib/cmake/gflags/gflags-nonamespace-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\gflags\"/>
 		</Unit>
 		<Unit filename="/Users/alanliu/Documents/GitHub/edgepart/threadpool11/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\threadpool11\"/>

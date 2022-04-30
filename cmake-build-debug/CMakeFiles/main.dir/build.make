@@ -238,6 +238,7 @@ main: CMakeFiles/main.dir/src/dbh_partitioner.cpp.o
 main: CMakeFiles/main.dir/src/conversions.cpp.o
 main: CMakeFiles/main.dir/src/shuffler.cpp.o
 main: CMakeFiles/main.dir/build.make
+main: /usr/local/lib/libgflags_nothreads.a
 main: threadpool11/libthreadpool11.a
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable main"

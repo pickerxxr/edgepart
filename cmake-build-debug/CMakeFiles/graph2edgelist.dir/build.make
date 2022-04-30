@@ -118,6 +118,7 @@ graph2edgelist: CMakeFiles/graph2edgelist.dir/src/graph2edgelist.cpp.o
 graph2edgelist: CMakeFiles/graph2edgelist.dir/src/util.cpp.o
 graph2edgelist: CMakeFiles/graph2edgelist.dir/src/conversions.cpp.o
 graph2edgelist: CMakeFiles/graph2edgelist.dir/build.make
+graph2edgelist: /usr/local/lib/libgflags_nothreads.a
 graph2edgelist: threadpool11/libthreadpool11.a
 graph2edgelist: CMakeFiles/graph2edgelist.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alanliu/Documents/GitHub/edgepart/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable graph2edgelist"

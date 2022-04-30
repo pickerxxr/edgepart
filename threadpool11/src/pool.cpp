@@ -20,7 +20,7 @@ This file is part of threadpool11.
 
 #include "threadpool11/pool.hpp"
 
-#include <boost/lockfree/queue.hpp>
+//#include <boost/lockfree/queue.hpp>
 
 #include <algorithm>
 #include <vector>
