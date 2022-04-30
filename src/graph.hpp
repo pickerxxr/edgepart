@@ -1,7 +1,7 @@
 #pragma once
 
 #include <vector>
-#include <parallel/algorithm>
+//#include <parallel/algorithm>
 
 #include "util.hpp"
 

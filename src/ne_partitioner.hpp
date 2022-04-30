@@ -27,7 +27,8 @@ class NePartitioner : public Partitioner
 
     vid_t num_vertices;
     size_t num_edges, assigned_edges;
-    int p, bucket;
+    int p, bucket, expand_ratio;
+    double min_break_degree;
     double average_degree;
     size_t capacity;
 

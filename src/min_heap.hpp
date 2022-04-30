@@ -97,6 +97,10 @@ public:
         key2idx.resize(nelements);
     }
 
+    int get_size() {
+        return n;
+    }
+
     void clear() {
         n = 0;
     }

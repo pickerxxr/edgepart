@@ -9,7 +9,7 @@
 #include <sys/stat.h>
 #include <sys/mman.h>
 #include <unistd.h>
-#include <parallel/algorithm>
+//#include <parallel/algorithm>
 
 #include "util.hpp"
 #include "dense_bitset.hpp"

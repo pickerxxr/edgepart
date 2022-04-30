@@ -1,9 +1,10 @@
 #pragma once
 
-#include <utility>
 #include <chrono>
+#include <sstream>
 #include <stdint.h>
 #include <sys/stat.h>
+#include <utility>
 
 #include <gflags/gflags.h>
 #include <glog/logging.h>
@@ -58,7 +59,7 @@ inline std::string degree_name(const std::string &basefilename)
 inline std::string partitioned_name(const std::string &basefilename)
 {
     std::stringstream ss;
-    ss << basefilename << ".edgepart." << FLAGS_p; // chenzi: add partition number to the output file
+    ss << basefilename << ".edgepart." << "FLAGS_p";
     return ss.str();
 }
 

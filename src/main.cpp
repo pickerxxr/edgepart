@@ -22,37 +22,37 @@ DEFINE_string(method, "sne",
 
 int main(int argc, char *argv[])
 {
-    std::string usage = "-filename <path to the input graph> "
-                        "[-filetype <edgelist|adjlist>] "
-                        "[-p <number of partitions>] "
-                        "[-memsize <memory budget in MB>]";
-    google::SetUsageMessage(usage);
-    google::ParseCommandLineNonHelpFlags(&argc, &argv, true);
-    google::InitGoogleLogging(argv[0]);
-    FLAGS_logtostderr = 1; // output log to stderr
-    if (FLAGS_help) {
-        FLAGS_help = false;
-        FLAGS_helpshort = true;
-    }
-    google::HandleCommandLineHelpFlags();
+//    std::string usage = "-filename <path to the input graph> "
+//                        "[-filetype <edgelist|adjlist>] "
+//                        "[-p <number of partitions>] "
+//                        "[-memsize <memory budget in MB>]";
+//    google::SetUsageMessage(usage);
+//    google::ParseCommandLineNonHelpFlags(&argc, &argv, true);
+//    google::InitGoogleLogging(argv[0]);
+//    FLAGS_logtostderr = 1; // output log to stderr
+//    if (FLAGS_help) {
+//        FLAGS_help = false;
+//        FLAGS_helpshort = true;
+//    }
+//    google::HandleCommandLineHelpFlags();
 
     Timer timer;
     timer.start();
 
     Partitioner *partitioner = NULL;
-    if (FLAGS_method == "ne")
-        partitioner = new NePartitioner(FLAGS_filename);
-    else if (FLAGS_method == "sne")
-        partitioner = new SnePartitioner(FLAGS_filename);
-    else if (FLAGS_method == "random")
-        partitioner = new RandomPartitioner(FLAGS_filename);
-    else if (FLAGS_method == "dbh")
-        partitioner = new DbhPartitioner(FLAGS_filename);
-    else if (FLAGS_method == "hsfc")
-        partitioner = new HsfcPartitioner(FLAGS_filename);
-    else
-        LOG(ERROR) << "unkown method: " << FLAGS_method;
-    LOG(INFO) << "partition method: " << FLAGS_method;
+//    if (FLAGS_method == "ne")
+partitioner = new NePartitioner("./../../../benchmark_codes/DistributedNE/data_balance/com-amazon.ungraph.txt");
+//    else if (FLAGS_method == "sne")
+//        partitioner = new SnePartitioner(FLAGS_filename);
+//    else if (FLAGS_method == "random")
+//        partitioner = new RandomPartitioner(FLAGS_filename);
+//    else if (FLAGS_method == "dbh")
+//        partitioner = new DbhPartitioner(FLAGS_filename);
+//    else if (FLAGS_method == "hsfc")
+//        partitioner = new HsfcPartitioner(FLAGS_filename);
+//    else
+//        LOG(ERROR) << "unkown method: " << FLAGS_method;
+//    LOG(INFO) << "partition method: " << FLAGS_method;
     partitioner->split();
 
     timer.stop();
