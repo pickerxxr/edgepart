@@ -141,7 +141,7 @@ void NePartitioner::split()
     compute_timer.start();
     bucket = 0;
 //    while (bucket < p - 1) {
-    while (bucket < 2 * p - 1) {
+    while (bucket < p - 1) {
         std::cerr << bucket << ", ";
         std::cout << "sample size: " << adj_out.num_edges() << std::endl;
         /* TODO: CHECK the minimum degree of all the vertices */
